@@ -1,0 +1,118 @@
+body {
+    background-color: whitesmoke;
+    font-family: monospace;
+    font-size: medium;
+    line-height: 1.6em;
+}
+.container {
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+#main-header {
+    font-size: 20px;
+    margin: 0;
+    float: left;
+    width: 30%;
+    font-family: monospace;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: floralwhite;
+    box-sizing: border-box;
+}
+#main-header a{
+    text-decoration:none;
+    color:white;
+    margin-left:10px;
+}
+#navbar {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: white;
+    float:left;
+    width: 50%;
+    box-sizing: border-box;
+}
+#navbar ul{
+    list-style:none;
+}
+#navbar li{
+    display:inline;
+}
+#navbar a {
+    margin-left: 50px;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+#navbar a:hover{
+    border-left: white solid 2px;
+    border-right: white solid 2px;
+    color:lightgreen;
+}
+#right-header {
+    background-color:#1e1e1e;
+    color:white;
+    padding: 10px;
+    font-size: 20px;
+    float: right;
+    width: 20%;
+    box-sizing: border-box;
+}
+#right-header a{
+    text-decoration:none;
+    color:white;
+    margin-right: 5px;
+    padding:15px;
+    border: lightgreen solid 2px;
+    box-sizing:border-box;
+}
+#right-header a:hover{
+    color:black;
+    background-color:lightgreen;
+}
+.paragraph {
+    font: 15px bold;
+    margin-top: 10px;
+    background-color: lightgreen;
+    border: black solid 2px;
+    border-radius: 15px;
+    padding: 10px;
+}
+.definition {
+    width: 50%;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-right: 50%;
+    font: Tahoma 15px bold;
+    background-color: rgba(208, 203, 203, 0.47);
+    border: black solid 2px;
+    padding: 10px;
+}
+.definition h1{
+    padding-bottom:10px;
+    border-bottom: black dashed 2px;
+}
+.representation {
+    width: 50%;
+    margin-top: 10px;
+    font: Tahoma 15px bold;
+    background-color:rgba(208, 203, 203, 0.47);
+    border: black solid 2px;
+    padding: 10px;
+}
+.representation h1{
+    text-align:center;
+    padding-bottom:10px;
+    border-bottom:black dashed 2px;
+}
+.representation img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    height:500px;
+    
+}
